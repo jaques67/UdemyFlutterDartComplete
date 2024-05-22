@@ -1,21 +1,8 @@
-import 'package:adv_basics/start_page.dart';
+import 'package:adv_basics/quiz.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      home: Scaffold(
-        body: Container(
-          decoration: const BoxDecoration(
-              gradient: LinearGradient(
-            colors: [
-              Color.fromARGB(255, 92, 51, 189),
-              Color.fromARGB(255, 45, 7, 98),
-            ],
-          )),
-          child: const StartPage(),
-        ),
-      ),
-    ),
+    const Quiz(),
   );
 }
