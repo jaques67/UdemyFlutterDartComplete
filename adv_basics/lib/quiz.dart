@@ -12,6 +12,7 @@ class Quiz extends StatefulWidget {
 }
 
 class _QuizState extends State<Quiz> {
+  var selectedAnswers = [];
   Widget? activeScreen;
 
   @override
